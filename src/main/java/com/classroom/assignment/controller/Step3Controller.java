@@ -22,6 +22,8 @@ public class Step3Controller {
     model.addAttribute("content", comment.getContent());
     // 課題 level2 step3
     // メールアドレスの項目を追加してください。
+        // 課題 level2 step3
+    model.addAttribute("mail", comment.getContent());
     return "step3/confirm";
   }
 }
