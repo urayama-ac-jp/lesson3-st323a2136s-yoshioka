@@ -28,7 +28,11 @@ public class Comment {
     this.content = content;
   }
 
+  public String getMail() {
+    return mail;
+  }
+
   public void setMail(String mail) {
-    
+    this.mail = mail;
   }
 }
